@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <ApiInfoBlock apiUrl="https://random-data-api.com/api/v2/banks"></ApiInfoBlock>
+  <ApiInfoBlock apiUrl="https://randomuser.me/api/"></ApiInfoBlock>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import ApiInfoBlock from './components/ApiInfoBlock.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HelloWorld
+    ApiInfoBlock
+}
 }
 </script>
 
